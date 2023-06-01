@@ -1,0 +1,50 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: horder-box;
+   
+}
+@font-face {
+   font-family: 'OfficinaSans';
+   src: url("fonts/OfficinaSansCBold.ttf");
+}
+
+
+
+body {
+   font-family: 'OfficinaSans';
+   background-color: #444444;
+   font-weight: 550;
+   color: whitesmoke;
+}
+
+main {
+   background: linear-gradient(to bottom, #4e4e4e, #3a3939);
+   width: 100%;
+   height: 130vh;
+}
+
+h1 {
+   padding-top: 40px;
+   font-family: serif;
+   font-size: 50px;
+   font-weight: 100;
+   line-height: 1;
+   text-align: center;
+}
+
+p {
+   padding: 30px 80px 30px 430px;
+   font-size: 18px;
+   line-height: 1.5;
+   letter-spacing: 0.05em;
+   width: 1000px;
+   text-align: center;
+}
+
+.video {
+   position: absolute;
+   left: 420px;
+   top: 400px;
+
+}

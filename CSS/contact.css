@@ -1,0 +1,120 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: horder-box;
+   
+}
+@font-face {
+   font-family: 'OfficinaSans';
+   src: url("fonts/OfficinaSansCBold.ttf");
+}
+
+
+
+body {
+   font-family: 'OfficinaSans';
+   background-color: #444444;
+   font-weight: 550;
+   color: whitesmoke;
+}
+
+main {
+   background: linear-gradient(to bottom, #6e6d6d, #524d4d);
+   width: 100%;
+   height: 130vh;
+}
+
+h1 {
+   font-family: serif;
+   font-size: 50px;
+   font-weight: 100;
+   line-height: 1;
+   text-align: center;
+}
+
+.info {
+   padding-top: 30px;
+}
+
+p {
+   font-size: 18px;
+   line-height: 1.5;
+   letter-spacing: 0.05em;
+   text-align: center;
+   padding-top: 15px;
+   margin-bottom: 20px;
+}
+
+
+.con {
+   position: absolute;
+   left: 8%;
+   margin-top: 100px;
+  
+}
+
+.con1 {
+   position: absolute;
+   background-color: rgb(233, 229, 229);
+   width: 520px;
+   height: 520px;
+   z-index: 1;
+}
+.con2 {
+   position: absolute;
+   background-color: rgb(17, 17, 17);
+   width: 1100px;
+   height: 520px;
+   margin-left: 520px;
+}
+h2 {
+   margin-top: 30px;
+   font-size: 30px;
+   color: #bfa178;
+   letter-spacing: 0.5px;
+   font-family: serif; 
+   text-transform: uppercase;
+   padding-bottom: 10px;
+   text-align: center;
+}
+
+.i1 {
+   margin: 190px 0 0 190px;
+   width: 150px;
+   height: 150px;
+}
+.text {
+   
+   padding-top: 100px;
+   padding-left: 150px;
+   text-align: left;
+   width: 180px;
+}
+
+.tel {
+   position: absolute;
+   font-size: 22px;
+   left: 420px;
+   top: 190px;
+   color: whitesmoke
+}
+
+.tel:hover {
+   color: #bfa178;
+}
+
+.mail {
+   position: absolute;
+   font-size: 22px;
+   left: 420px;
+   top: 340px;
+   color: whitesmoke
+}
+
+.mail:hover {
+   color: #bfa178;
+}
+
+.map {
+  padding-top: 800px;
+}

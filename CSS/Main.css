@@ -1,0 +1,177 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: horder-box;
+}
+
+@font-face {
+   font-family: 'OfficinaSans';
+   src: url("fonts/OfficinaSansCBold.ttf");
+}
+
+body {
+   font-family: 'OfficinaSans';
+   font-weight: 550;
+   background-color: #272525;
+}
+
+main {
+   color: whitesmoke;
+}
+
+.mainInfo {
+   width: 100%;
+   height: 110vh;
+   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(/img/bg_info.jpeg);
+   color: whitesmoke;
+   text-align: left;
+}
+
+.info {
+   padding: 150px 67px 0 250px;
+   margin: 0 10px 0 10px;
+}
+ 
+h1 {
+   font-family: serif;
+   font-size: 50px;
+   font-weight: 100;
+}
+
+.MainH1 {
+   margin: 0 0 20px;
+   line-height: 1;
+ 
+}
+
+p {
+   font-size: 18px;
+   line-height: 1.5;
+   letter-spacing: 0.05em;
+}
+
+.Main_p {
+   width: 700px;
+   margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 16px;
+}
+
+.family {
+   background: -webkit-gradient( linear, left top, left bottom, from(#272525), to(#111) ), #c4c4c4;
+   width: 100%;
+   height: 130vh;
+   padding: 97px 0 0 0;
+   line-height: 1.5;
+}
+
+.familyH1 {
+   text-align: center;
+   margin-bottom: 54px;
+}
+
+.fp {
+   text-align: center;
+   margin: 0 10% 150px 10% ;
+}
+
+h2 {
+   color: #bfa178;
+   letter-spacing: 0.5px;
+   font-family: serif; 
+   text-transform: uppercase;
+   padding-bottom: 10px;
+   text-align: center;
+}
+
+.familyInfo {
+   margin: 0 7% 0 7%;
+}
+
+.hero {
+   position: absolute;
+   width: 350px;
+   height: 450;
+}
+
+.pf {
+   text-align: center;
+}
+
+.cont1 {
+   position: absolute;
+   width: 500px;
+}
+
+.hero1 {
+   margin-left: 15%;
+   width: 350px;
+   height: 400px;
+}
+
+.cont2 {
+   position: absolute;
+   width: 500px;
+   left: 600px;
+}
+
+.hero2 {
+   margin-left: 15%;
+   width: 350px;
+   height: 400px;
+}
+
+.cont3 {
+   position: absolute;
+   width: 500px;
+   left: 1150px;
+}
+
+.hero3 {
+   margin-left: 15%;
+   width: 350px;
+   height: 400px;
+}
+
+
+.history {
+   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(/img/bg2.jpeg);
+   background-size: 1000px;
+   background-position: center; 
+   width: 100%;
+   height: 120vh;
+   padding: 97px 0 0 0;
+   line-height: 1.5;
+}
+
+.historyH1 {
+   text-align: center;
+
+}
+
+.historyH2 {
+   text-align: left;
+   color: whitesmoke;
+   margin-top: 0px;
+}
+
+.his1 {
+   margin-left: 100px;
+}
+
+.history_p {
+   width: 900px;
+   margin-top: 0;
+   margin-bottom: 1rem;
+   display: block;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   margin-bottom: 16px;
+}

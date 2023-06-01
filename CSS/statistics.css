@@ -1,0 +1,84 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: horder-box;
+   
+}
+@font-face {
+   font-family: 'OfficinaSans';
+   src: url("fonts/OfficinaSansCBold.ttf");
+}
+
+
+
+body {
+   font-family: 'OfficinaSans';
+   background-color: #444444;
+   font-weight: 550;
+   color: whitesmoke;
+}
+
+main {
+   background: linear-gradient(to bottom, #6e6d6d, #524d4d);
+   width: 100%;
+   height: 130vh;
+}
+
+h1 {
+   padding-top: 40px;
+   font-family: serif;
+   font-size: 50px;
+   font-weight: 100;
+   line-height: 1;
+   text-align: center;
+}
+
+h2 {
+   margin-top: 30px;
+   font-size: 17px;
+   color: #bfa178;
+   letter-spacing: 0.5px;
+   font-family: serif; 
+   text-transform: uppercase;
+   padding-bottom: 10px;
+   
+   text-align: center;
+}
+
+.con {
+   margin-top: 40px;
+   margin-left: 100px;
+   padding-top: 5px;
+   border-radius: 1%;
+   border: 1px solid black;
+   width: 400px;
+   height: 100px;
+   background-color: rgba(255, 255, 255, 0.89);
+   color: black;
+}
+
+.con1 {
+   position: absolute;
+   left: 700px;
+   top: 300px;
+   padding-top: 5px;
+   border-radius: 1%;
+   border: 1px solid black;
+   width: 600px;
+   height: 300px;
+   background-color: rgba(255, 255, 255, 0.89);
+   color: black;
+}
+
+.ind {
+   text-align: center;
+   font-size: 20px;
+}
+
+table {
+   text-align: center;
+   border: 1px solid black;
+   margin-left: 100px;
+   width: 400px;
+}
+

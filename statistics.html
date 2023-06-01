@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Основные финансовые показатели</title>
+   <link rel="stylesheet" href="CSS/statistics.css">
+   <link rel="stylesheet" href="CSS/header.css">
+   <script src="Js/statick.Js"></script>
+</head>
+<body onload="matstat()">
+   <main>
+
+      <div class="sidebar">
+         <ul>
+           <li><a href="main.html" class="active">О компании</a></li>
+           <li><a href="video.html">Видео</a></li>
+           <li><a href="Contact.html">Контактные данные</a></li>
+           <li><a href="statistics.html">Основные финансовые показатели</a></li>
+         </ul>
+       </div>
+
+      <h1> Основные финансовые показатели</h1>
+
+      <div class="con">
+         <h2>Капитализация на конец апреля:</h2>
+         <div class="ind">28 322 053 176 ₽</div>
+      </div>
+
+      <div class="con">
+         <h2>Общее число акций:</h2>
+         <div class="ind">98 000 184</div>
+      </div>
+
+      <div class="con">
+         <h2>Минимальная цена:</h2>
+         <div class="ind" id="minPrice"> </div>
+      </div>
+
+      <div class="con">
+         <h2>Максимальная цена:</h2>
+         <div class="ind" id="maxPrice"> </div>
+      </div>
+
+      <div class="con">
+         <h2>Среднеквадратическое отклонение:</h2>
+         <div class="ind" id="stdDeviation"> </div>
+      </div>
+
+      <div class="con1">
+         <h2>таблица с ценами закрытия:</h2>
+         <div class="ind">
+            <table>
+               <tr>
+                  <th>Дата</th>
+                  <th>Цена закрытия</th>
+               </tr>
+               
+               <tr>
+                  <td>02.05.2023</td>
+                  <td>242,5</td>
+               </tr>
+
+               <tr>
+                  <td>08.05.2023</td>
+                  <td>247</td>
+               </tr>
+
+               <tr>
+                  <td>12.05.2023</td>
+                  <td>259,5</td>
+               </tr>
+
+               <tr>
+                  <td>16.05.2023</td>
+                  <td>259,2</td>
+               </tr>
+
+               <tr>
+                  <td>22.05.2023</td>
+                  <td>269</td>
+               </tr>
+
+               <tr>
+                  <td>26.05.2023</td>
+                  <td>276,2</td>
+               </tr>
+
+               <tr>
+                  <td>31.05.2023</td>
+                  <td>283</td>
+               </tr>
+
+
+
+            </table>
+         </div>
+      </div>
+
+   </main>
+</body>
+</html>
