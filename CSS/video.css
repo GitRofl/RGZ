@@ -21,10 +21,11 @@ body {
 main {
    background: linear-gradient(to bottom, #4e4e4e, #3a3939);
    width: 100%;
-   height: 130vh;
+   height: 136vh;
 }
 
 h1 {
+   padding-left: 200px;
    padding-top: 40px;
    font-family: serif;
    font-size: 50px;
@@ -34,7 +35,7 @@ h1 {
 }
 
 p {
-   padding: 30px 80px 30px 430px;
+   padding: 30px 80px 30px 570px;
    font-size: 18px;
    line-height: 1.5;
    letter-spacing: 0.05em;
@@ -44,7 +45,7 @@ p {
 
 .video {
    position: absolute;
-   left: 420px;
-   top: 400px;
+   left: 550px;
+   top: 300px;
 
 }
